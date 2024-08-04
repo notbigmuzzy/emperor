@@ -77,12 +77,12 @@ screen-main {
 		display: flex;
 		justify-content: center;
 		flex-grow: 99;
-		padding-top: 100px;
+		padding-bottom: 40px;
 
 		span {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: end;
 		}
 
 		button {
@@ -94,5 +94,6 @@ screen-main {
 	bottom-options {
 		display: flex;
 		justify-content: space-between;
+		padding: 20px 40px;
 	}
 }
